@@ -1,0 +1,126 @@
+body{
+	font: 400 13px/1.2 Arial, sans-serif;
+	color: #797b7f;
+	background: url("../img/bg.jpg") no-repeat 100% 0 / cover;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 60px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+	font: 700 18px/50px Arial, sans-serif;
+	background: #ea355a;
+	color: #ffffff;
+	width: 100%;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0px 3px 0px 0px #bd1962;
+	margin-bottom:10px ;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+	background: #ff512f;
+	/* box-shadow: 0px 3px 0px 0px #ff512f; */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	border: 0;
+	/* opacity:0.7; */
+	font: 400 14px/1 Arial, sans-serif;
+	color: #797b7f;
+	background: #F0F0F0;
+	border-radius: 3px;
+	padding: 14px 14px;
+
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-daily-form{
+	background: #ffffff;
+	max-width: 460px;
+	margin: 0 auto;
+	border-radius: 4px;
+	padding: 28px 30px 46px 30px;
+}
+.ba-daily-form__header{
+	margin-bottom: 35px;
+}
+.ba-daily-form__title{
+	font: 700 24px/1.2 Arial,sans-serif;
+	background: url("../img/keylogo.png") no-repeat 0 1px;
+	color: #1b1c1d;
+	margin: 0;
+	margin-bottom: 14px;
+	padding-left: 34px;
+}
+.ba-daily-form__login{
+	text-decoration: none;
+	color: #ea355a;
+}
+.ba-daily-row__name{
+	display: flex;
+	margin-left: -15px;
+}
+.ba-daily-row__name [name*="_name"]{
+	width: 100%;
+	flex-grow: 1;
+	margin-left: 15px;
+}
+.ba-daily-row + .ba-daily-row{
+	margin-top: 11px;
+}
+.ba-daily-row [name="email"]{
+	width: 100%;
+}
+.ba-daily-row [name="password"]{
+	width: 100%;
+}
+.ba-daily-agree{
+	max-width: 384px;
+	font-size: 12px;
+	line-height: 20px;
+}
+.ba-daily-agree a{
+	text-decoration: none;
+	color: #ea355a;
+}
+.ba-daily-agree a:hover{
+	text-decoration: underline;
+	color: #1b1c1d;
+}
